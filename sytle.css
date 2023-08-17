@@ -1,0 +1,209 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(36, 25, 192, 0.836);
+}
+
+.wrapper,
+.menu,
+.main,
+.header,
+.content,
+.footer{
+    border: solid 1px #6ad355;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    background-image: url("./clinicasobre.jpg") ;
+    background-repeat: repeat-x;
+    background-position: 300px, 300px;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+
+
+.menu {
+    width: 15%;
+    background-color: rgb(238, 255, 0);
+    padding: 10px 20px 0px;
+    
+    
+
+    
+}
+.header {
+    background-color: rgb(56, 240, 117);
+    min-height: 150px; 
+    display:flex ;
+    justify-content: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+
+       
+    
+
+}
+.content > p{
+    text-align: justify;
+}
+
+p{    /*Paragrafo dentro do Content da pagina de contato*/
+    text-align: center;
+}
+.footer {
+    background-color: rgb(56, 240, 117);
+    min-height: 5px; 
+    border: solid 1px rgb(61, 201, 43);
+    
+}
+.footer >  p{   /*Paragrafo do rodape*/
+    text-align: center;
+    padding: 20px;
+}
+
+.img{
+    width: 80%;
+    padding:40px;
+}
+
+
+.title{            /*Titulos dentro do Content*/
+    text-align: center;
+}
+
+.link{  /*Links do Menu*/
+   color: #2eaf14;
+   text-decoration: none;
+   font-size:30px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   justify-content:space-evenly;
+   margin:3px 2px 3px 0px;
+   padding: 4px;
+}   
+
+
+
+
+    
+
+   
+
+   
+
+ul {         /*Lista do Menu*/
+    display:inline;
+    list-style-type: none;
+    
+    
+  }
+
+
+  .submit {      /*Botao Submit*/
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .submit:hover{
+    background-color:#e2cc05;
+  }
+
+
+  .reset {       /*Botão Reset*/
+    background-color: #f1f1f1;
+    border:solid 1px;
+    color: #e20505;
+    padding: 16px 32px;
+    text-decoration:none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .reset:hover{
+    background-color: rgb(255, 105, 180);
+  }
+
+
+  #email, #assunto, #nome, #area{   /*Campos do Formulário*/
+    background-color: #f1f1f1;
+    border:solid 1px;
+
+    color: #057ee2;
+    padding: 16px 32px;
+    text-decoration:none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display:block;
+  }
+
+  
+
+.iframe{  /*Iframe do Mapa*/
+  
+    
+    display: block;
+    width: 90%;
+    padding: 7px;
+    
+
+    
+  }
+
+
+.input{   /*Input do Formulario*/
+    display:block;
+    width: 60%;
+    padding: 7px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    
+}
+.table {
+    border-collapse:separate;
+    
+    border: 1px solid black;
+    background-color: #70b9f5;
+    color: #f1f1f1;
+}
+
+.table tbody tr:nth-child(even) td{
+    background-color: #f13ea7;
+}
+tr{     
+    text-align:center;
+}
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
